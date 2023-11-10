@@ -2,7 +2,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(120 deg, #29d9d9, #29d99b);
+    background: linear-gradient(120 deg, #29d9d9, #8d29d9);
     height:100vh;
 }
 
@@ -14,5 +14,5 @@ body{
     width: 550px;
     background: transparent;
     border-radius: 3px;
-    box-shadow: 0px, 8px,10px, rgba(0, 0,15, .5 ); 
+    box-shadow: 0px, 8px,10px, rgba(91, 91, 218, 0.5)0.5); 
 }
