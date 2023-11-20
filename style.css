@@ -1,16 +1,18 @@
-@import url(https:fonts.google.com/specimen/Agbaluno);
+@import url(https://fonts.google.com/specimen/Agbalumo);
 *{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif
 }
 
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(120deg, #29d9d9, #d929c4);
-    height:100vh;     
+    font-size: 60px;
+    background: linear-gradient(120deg, #9932CC, #ff2525da);
+    height: 100vh; 
 }
 
 .relogio{
@@ -21,10 +23,10 @@ body{
     width: 550px;
     background: transparent;
     border-radius: 3px;
-    box-shadow: 0px, 8px,10px, rgba(0,0,15, .5); 
+    box-shadow: 0px,8px,10px rgba(0, 0, 15, .5);
 }
 
-.relogio div{
+.relogio div {
 
     height: 170px;
     width: 150px;
@@ -33,12 +35,13 @@ body{
     align-items: center;
     color: #fff;
     background: rgba(5, 5, 5, 9);
-    box-shadow: 5px 5px 15px rgba(0,0,0,7);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 7);
     border-radius: 7px;
     letter-spacing: 3px;
 }
 
-.relogio span{
+.relogio span {
+
     font-weight: bolder;
     font-size: 60px;
 }
@@ -46,11 +49,8 @@ body{
 .relogio span.tempo {
 
     font-size: 10px;
-
-
 }
 
 footer{
     padding-top: 450px;
 }
-
