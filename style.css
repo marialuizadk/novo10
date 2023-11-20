@@ -8,7 +8,6 @@
 body{
     display: flex;
     align-items: center;
-    font-size: 50px;
     justify-content: center;
     background: linear-gradient(120deg, #29d9d9, #d929c4);
     height:100vh;     
